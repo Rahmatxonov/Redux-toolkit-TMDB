@@ -5,8 +5,10 @@ const PlayingFilm = ({ image, original_title, popularity, release_date }) => {
     <div>
       <div className="card text-white mt-[50px] text-center">
         <img src={image} alt="image" className="image w-full h-[160px]" />
-        <h2 className="text-white font-semibold">Name: {original_title}</h2>
-        <p className=" text-white">Data: {release_date}</p>
+        <h2 className="text-white font-semibold title h-5">
+          Name: {original_title}
+        </h2>
+        <p className=" text-white pt-5">Data: {release_date}</p>
         <p className="">Rating: {popularity}</p>
       </div>
     </div>
